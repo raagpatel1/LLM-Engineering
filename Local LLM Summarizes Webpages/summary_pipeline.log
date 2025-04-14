@@ -162,3 +162,15 @@ Quotes to Scrape Quotes to Scrape Login “The world as we have created it is a 
 2025-04-14 15:30:53,192 - INFO - eval count:           75 token(s)
 2025-04-14 15:30:53,192 - INFO - eval duration:        19.7177173s
 2025-04-14 15:30:53,193 - INFO - eval rate:            3.80 tokens/s
+2025-04-14 15:35:26,466 - INFO - Fetching content from: http://quotes.toscrape.com
+2025-04-14 15:35:26,541 - INFO - Extracted 1696 characters of clean text
+2025-04-14 15:35:26,541 - INFO - Sending prompt to Ollama
+2025-04-14 15:35:26,542 - INFO - Prompt length: 1901 characters
+2025-04-14 15:37:04,139 - INFO - total duration:       1m37.4905881s
+2025-04-14 15:37:04,139 - INFO - load duration:        36.059ms
+2025-04-14 15:37:04,140 - INFO - prompt eval count:    465 token(s)
+2025-04-14 15:37:04,140 - INFO - prompt eval duration: 22.1538356s
+2025-04-14 15:37:04,140 - INFO - prompt eval rate:     20.99 tokens/s
+2025-04-14 15:37:04,141 - INFO - eval count:           293 token(s)
+2025-04-14 15:37:04,141 - INFO - eval duration:        1m15.3006935s
+2025-04-14 15:37:04,141 - INFO - eval rate:            3.89 tokens/s
