@@ -1,0 +1,164 @@
+2025-04-14 14:22:38,175 - INFO - Sending prompt to Ollama (length: 30 characters)
+2025-04-14 14:22:45,365 - INFO - Ollama response time: 7.19 seconds
+2025-04-14 14:22:45,366 - INFO - Summary preview: The capital of France is **Paris**.
+
+
+
+It's also its most populous city!...
+2025-04-14 14:23:47,393 - INFO - Sending prompt to Ollama (length: 30 characters)
+2025-04-14 14:23:54,133 - INFO - Ollama response time: 6.74 seconds
+2025-04-14 14:23:54,133 - INFO - Summary preview: The capital of France is **Paris**.
+
+
+
+It's also its most populous city!...
+2025-04-14 14:24:21,490 - INFO - Starting scrape for URL: https://edwarddonner.com
+2025-04-14 14:24:21,541 - INFO - HTTP response: 200
+2025-04-14 14:24:21,548 - INFO - Extracted text length: 1562 characters
+2025-04-14 14:24:21,550 - INFO - Sending prompt to Ollama (length: 1596 characters)
+2025-04-14 14:25:46,404 - INFO - Ollama response time: 84.85 seconds
+2025-04-14 14:25:46,405 - INFO - Summary preview: This is a personal blog and introduction to **Edward Donner**, a tech entrepreneur and AI enthusiast...
+2025-04-14 14:27:41,133 - INFO - Sending prompt to Ollama (length: 30 characters)
+2025-04-14 14:27:51,231 - INFO - Ollama response time: 10.1 seconds
+2025-04-14 14:27:51,231 - INFO - Summary preview: The capital of France is **Paris**.
+
+
+
+It's also its largest city and a global center for art, fashi...
+2025-04-14 14:28:27,102 - INFO - Sending prompt to Ollama (length: 30 characters)
+2025-04-14 14:28:33,906 - INFO - Ollama response time: 6.8 seconds
+2025-04-14 14:28:33,907 - INFO - Summary completed
+2025-04-14 14:29:04,166 - INFO - Running verbose Ollama query for prompt of length 30
+2025-04-14 14:29:11,973 - INFO - Raw verbose output from Ollama:
+2025-04-14 14:29:11,973 - INFO - prompt eval count:    16 token(s)
+2025-04-14 14:29:11,974 - INFO - prompt eval duration: 251.4521ms
+2025-04-14 14:29:11,974 - INFO - prompt eval rate:     63.63 tokens/s
+2025-04-14 14:29:11,974 - INFO - eval count:           31 token(s)
+2025-04-14 14:29:11,975 - INFO - eval duration:        7.4178137s
+2025-04-14 14:29:11,975 - INFO - eval rate:            4.18 tokens/s
+2025-04-14 14:32:03,031 - INFO - Running verbose Ollama query for prompt of length 30
+2025-04-14 14:32:08,212 - INFO - total duration:       5.0850564s
+2025-04-14 14:32:08,213 - INFO - load duration:        34.6053ms
+2025-04-14 14:32:08,214 - INFO - prompt eval count:    16 token(s)
+2025-04-14 14:32:08,214 - INFO - prompt eval duration: 277.2327ms
+2025-04-14 14:32:08,214 - INFO - prompt eval rate:     57.71 tokens/s
+2025-04-14 14:32:08,215 - INFO - eval count:           19 token(s)
+2025-04-14 14:32:08,215 - INFO - eval duration:        4.7732184s
+2025-04-14 14:32:08,215 - INFO - eval rate:            3.98 tokens/s
+2025-04-14 14:33:45,690 - INFO - Starting scrape for URL: https://edwarddonner.com
+2025-04-14 14:33:45,754 - INFO - HTTP response: 200
+2025-04-14 14:33:45,761 - INFO - Extracted text length: 1562 characters
+2025-04-14 14:33:45,762 - INFO - Sending prompt to Ollama (length: 1596 characters)
+2025-04-14 14:35:29,627 - INFO - Running verbose Ollama query for prompt of length 30
+2025-04-14 14:35:29,628 - ERROR - Verbose run failed: name 'subprocess' is not defined
+2025-04-14 14:35:29,637 - INFO - Starting scrape for URL: https://edwarddonner.com/
+2025-04-14 14:35:29,686 - INFO - HTTP response: 200
+2025-04-14 14:35:29,694 - INFO - Extracted text length: 1562 characters
+2025-04-14 14:35:29,697 - INFO - Running verbose Ollama query for prompt of length 1596
+2025-04-14 14:35:29,698 - ERROR - Verbose run failed: name 'subprocess' is not defined
+2025-04-14 14:36:03,848 - INFO - Running verbose Ollama query for prompt of length 30
+2025-04-14 14:36:09,201 - INFO - total duration:       5.2514307s
+2025-04-14 14:36:09,202 - INFO - load duration:        35.0265ms
+2025-04-14 14:36:09,202 - INFO - prompt eval count:    16 token(s)
+2025-04-14 14:36:09,202 - INFO - prompt eval duration: 690.4064ms
+2025-04-14 14:36:09,203 - INFO - prompt eval rate:     23.17 tokens/s
+2025-04-14 14:36:09,203 - INFO - eval count:           19 token(s)
+2025-04-14 14:36:09,203 - INFO - eval duration:        4.5259978s
+2025-04-14 14:36:09,204 - INFO - eval rate:            4.20 tokens/s
+2025-04-14 14:36:09,214 - INFO - Starting scrape for URL: https://edwarddonner.com/
+2025-04-14 14:36:09,263 - INFO - HTTP response: 200
+2025-04-14 14:36:09,271 - INFO - Extracted text length: 1562 characters
+2025-04-14 14:36:09,273 - INFO - Running verbose Ollama query for prompt of length 1596
+2025-04-14 14:37:28,340 - INFO - total duration:       1m18.9616713s
+2025-04-14 14:37:28,341 - INFO - load duration:        35.3138ms
+2025-04-14 14:37:28,342 - INFO - prompt eval count:    388 token(s)
+2025-04-14 14:37:28,342 - INFO - prompt eval duration: 18.8903078s
+2025-04-14 14:37:28,343 - INFO - prompt eval rate:     20.54 tokens/s
+2025-04-14 14:37:28,343 - INFO - eval count:           230 token(s)
+2025-04-14 14:37:28,344 - INFO - eval duration:        1m0.0360497s
+2025-04-14 14:37:28,344 - INFO - eval rate:            3.83 tokens/s
+2025-04-14 14:39:59,324 - INFO - Running verbose Ollama query for prompt of length 30
+2025-04-14 14:40:04,627 - INFO - total duration:       5.2009121s
+2025-04-14 14:40:04,628 - INFO - load duration:        36.876ms
+2025-04-14 14:40:04,628 - INFO - prompt eval count:    16 token(s)
+2025-04-14 14:40:04,629 - INFO - prompt eval duration: 669.9097ms
+2025-04-14 14:40:04,629 - INFO - prompt eval rate:     23.88 tokens/s
+2025-04-14 14:40:04,630 - INFO - eval count:           19 token(s)
+2025-04-14 14:40:04,630 - INFO - eval duration:        4.4935932s
+2025-04-14 14:40:04,630 - INFO - eval rate:            4.23 tokens/s
+2025-04-14 14:40:25,973 - INFO - Running Ollama query for prompt of length 30
+2025-04-14 14:40:33,941 - INFO - total duration:       7.8600695s
+2025-04-14 14:40:33,942 - INFO - load duration:        35.6073ms
+2025-04-14 14:40:33,942 - INFO - prompt eval count:    16 token(s)
+2025-04-14 14:40:33,943 - INFO - prompt eval duration: 263.6688ms
+2025-04-14 14:40:33,943 - INFO - prompt eval rate:     60.68 tokens/s
+2025-04-14 14:40:33,943 - INFO - eval count:           31 token(s)
+2025-04-14 14:40:33,944 - INFO - eval duration:        7.5607934s
+2025-04-14 14:40:33,944 - INFO - eval rate:            4.10 tokens/s
+2025-04-14 14:52:45,932 - INFO - Running Ollama chat with custom system prompt.
+2025-04-14 14:52:45,932 - INFO - Running Ollama query for prompt of length 135
+2025-04-14 14:54:45,270 - INFO - total duration:       1m59.2166571s
+2025-04-14 14:54:45,270 - INFO - load duration:        1.4613121s
+2025-04-14 14:54:45,271 - INFO - prompt eval count:    45 token(s)
+2025-04-14 14:54:45,271 - INFO - prompt eval duration: 2.4379077s
+2025-04-14 14:54:45,271 - INFO - prompt eval rate:     18.46 tokens/s
+2025-04-14 14:54:45,272 - INFO - eval count:           455 token(s)
+2025-04-14 14:54:45,272 - INFO - eval duration:        1m55.3162763s
+2025-04-14 14:54:45,273 - INFO - eval rate:            3.95 tokens/s
+2025-04-14 14:58:58,330 - INFO - Starting Ollama chat interaction with system prompt.
+2025-04-14 14:58:58,330 - INFO - System prompt: You are a friendly assistant who explains things clearly and simply.
+2025-04-14 14:58:58,331 - INFO - User prompt: Explain how gravity works like I'm 10 years old.
+2025-04-14 14:58:58,331 - INFO - Full prompt length: 135 characters
+2025-04-14 14:58:58,332 - INFO - Running Ollama query for prompt of length 135
+2025-04-14 15:00:48,111 - INFO - total duration:       1m49.6705968s
+2025-04-14 15:00:48,112 - INFO - load duration:        34.828ms
+2025-04-14 15:00:48,112 - INFO - prompt eval count:    45 token(s)
+2025-04-14 15:00:48,113 - INFO - prompt eval duration: 252.1125ms
+2025-04-14 15:00:48,113 - INFO - prompt eval rate:     178.49 tokens/s
+2025-04-14 15:00:48,114 - INFO - eval count:           432 token(s)
+2025-04-14 15:00:48,114 - INFO - eval duration:        1m49.3831357s
+2025-04-14 15:00:48,114 - INFO - eval rate:            3.95 tokens/s
+2025-04-14 15:17:59,834 - INFO - Starting scrape for URL: http://quotes.toscrape.com/
+2025-04-14 15:17:59,891 - INFO - Extracted text length: 1696 characters
+2025-04-14 15:17:59,892 - INFO - Running Ollama with a direct prompt
+2025-04-14 15:17:59,892 - INFO - User prompt: Summarize the following article:
+
+Quotes to Scrape Quotes to Scrape Login “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.” by  Albert Einstein (about) Tags: change deep-thoughts thinking world “It is our choices, Harry, that show what we truly are, far more than our abilities.” by  J.K. Rowling (about) Tags: abilities choices “There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.” by  Albert Einstein (about) Tags: inspirational life live miracle miracles “The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.” by  Jane Austen (about) Tags: aliteracy books classic humor “Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.” by  Marilyn Monroe (about) Tags: be-yourself inspirational “Try not to become a man of success. Rather become a man of value.” by  Albert Einstein (about) Tags: adulthood success value “It is better to be hated for what you are than to be loved for what you are not.” by  André Gide (about) Tags: life love “I have not failed. I've just found 10,000 ways that won't work.” by  Thomas A. Edison (about) Tags: edison failure inspirational paraphrased “A woman is like a tea bag; you never know how strong it is until it's in hot water.” by  Eleanor Roosevelt (about) Tags: misattributed-eleanor-roosevelt “A day without sunshine is like, you know, night.” by  Steve Martin (about) Tags: humor obvious simile Next  → Top Ten tags love inspirational life humor books reading friendship friends truth simile Quotes by:  GoodReads.com Made with  ❤  by  Zyte
+2025-04-14 15:17:59,893 - INFO - Final prompt length: 1730 characters
+2025-04-14 15:19:18,096 - INFO - total duration:       1m18.0780305s
+2025-04-14 15:19:18,096 - INFO - load duration:        1.7076094s
+2025-04-14 15:19:18,096 - INFO - prompt eval count:    423 token(s)
+2025-04-14 15:19:18,097 - INFO - prompt eval duration: 20.5074917s
+2025-04-14 15:19:18,097 - INFO - prompt eval rate:     20.63 tokens/s
+2025-04-14 15:19:18,098 - INFO - eval count:           216 token(s)
+2025-04-14 15:19:18,098 - INFO - eval duration:        55.8629294s
+2025-04-14 15:19:18,098 - INFO - eval rate:            3.87 tokens/s
+2025-04-14 15:19:18,099 - INFO - Ollama response preview: [?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?...
+2025-04-14 15:19:18,105 - INFO - Running Ollama with a system prompt (chat mode)
+2025-04-14 15:19:18,105 - INFO - System prompt: You are a patient and friendly professor who explains technical things like a story.
+2025-04-14 15:19:18,106 - INFO - User prompt: Explain machine learning simply.
+2025-04-14 15:19:18,106 - INFO - Final prompt length: 135 characters
+2025-04-14 15:24:12,488 - INFO - Fetching content from: http://quotes.toscrape.com
+2025-04-14 15:24:12,550 - INFO - Extracted 1696 characters of clean text
+2025-04-14 15:24:12,551 - INFO - Sending prompt to Ollama
+2025-04-14 15:24:12,552 - INFO - Prompt length: 1820 characters
+2025-04-14 15:25:01,315 - INFO - total duration:       48.657103s
+2025-04-14 15:25:01,315 - INFO - load duration:        37.9997ms
+2025-04-14 15:25:01,315 - INFO - prompt eval count:    444 token(s)
+2025-04-14 15:25:01,316 - INFO - prompt eval duration: 20.7783692s
+2025-04-14 15:25:01,316 - INFO - prompt eval rate:     21.37 tokens/s
+2025-04-14 15:25:01,317 - INFO - eval count:           110 token(s)
+2025-04-14 15:25:01,317 - INFO - eval duration:        27.8407341s
+2025-04-14 15:25:01,317 - INFO - eval rate:            3.95 tokens/s
+2025-04-14 15:30:09,023 - INFO - Fetching content from: http://quotes.toscrape.com
+2025-04-14 15:30:09,073 - INFO - Extracted 1696 characters of clean text
+2025-04-14 15:30:09,073 - INFO - Sending prompt to Ollama
+2025-04-14 15:30:09,074 - INFO - Prompt length: 1866 characters
+2025-04-14 15:30:53,190 - INFO - total duration:       43.9943884s
+2025-04-14 15:30:53,190 - INFO - load duration:        1.7012994s
+2025-04-14 15:30:53,191 - INFO - prompt eval count:    459 token(s)
+2025-04-14 15:30:53,191 - INFO - prompt eval duration: 22.5748485s
+2025-04-14 15:30:53,191 - INFO - prompt eval rate:     20.33 tokens/s
+2025-04-14 15:30:53,192 - INFO - eval count:           75 token(s)
+2025-04-14 15:30:53,192 - INFO - eval duration:        19.7177173s
+2025-04-14 15:30:53,193 - INFO - eval rate:            3.80 tokens/s
