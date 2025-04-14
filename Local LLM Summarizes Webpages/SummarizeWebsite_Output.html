@@ -7606,7 +7606,7 @@ a.anchor-link {
 <span class="k">def</span> <span class="nf">generate_with_ollama</span><span class="p">(</span><span class="n">user_prompt</span><span class="p">,</span> <span class="n">system_prompt</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">model</span><span class="o">=</span><span class="s2">"gemma3:12b"</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Sends a prompt to Ollama, optionally with a system prompt.</span>
-<span class="sd">    Logs performance metrics only — no output or input content.</span>
+<span class="sd">    Logs performance metrics.</span>
 <span class="sd">    """</span>
     <span class="n">full_prompt</span> <span class="o">=</span> <span class="p">(</span>
         <span class="sa">f</span><span class="s2">"&lt;&lt;SYS&gt;&gt;</span><span class="se">\n</span><span class="si">{</span><span class="n">system_prompt</span><span class="si">}</span><span class="se">\n</span><span class="s2">&lt;&lt;/SYS&gt;&gt;</span><span class="se">\n\n</span><span class="si">{</span><span class="n">user_prompt</span><span class="si">}</span><span class="s2">"</span>
@@ -7646,7 +7646,7 @@ a.anchor-link {
 
 <span class="k">def</span> <span class="nf">summarize_url</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">system_prompt</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">model</span><span class="o">=</span><span class="s2">"gemma3:12b"</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
-<span class="sd">    Scrape a webpage and summarize it using an Ollama model.</span>
+<span class="sd">    Scrape a webpage and summarize it using the Ollama model.</span>
 <span class="sd">    """</span>
     <span class="n">page_text</span> <span class="o">=</span> <span class="n">extract_text_from_url</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">page_text</span><span class="p">:</span>
